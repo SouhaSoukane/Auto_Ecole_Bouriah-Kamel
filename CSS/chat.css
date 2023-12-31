@@ -1,0 +1,96 @@
+ /* Style for the navbar container */
+ body{
+    width: 100%;
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    color: #fff;
+    padding: 15px 30px;
+
+
+    /* Add the following CSS styles to your existing stylesheet */
+
+
+  
+
+/* Add any additional styling for your navbar elements here */
+
+}
+
+.principal{
+   border-bottom: 1px solid #ccc; /* Add a border at the bottom for the shadow effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add a subtle box shadow for more depth */
+   margin-right: 80px;
+   margin-left: 20px;  
+  
+}
+
+/* Style for the logo image */
+.logo img {
+    width: 15%; /* Adjust the height as needed */
+}
+
+/* Style for the navbar items */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.navbar li {
+    margin-left: 40px;
+    text-align: right; /* Ensure right alignment */
+}
+
+/* Style for the links */
+.navbar a {
+    text-decoration: none;
+    color: #F19232;
+    font-size: larger;
+    
+}
+.navbar a:hover{
+    color: #E43C2E;
+}
+
+
+    .submenu {
+        display: none;
+        position: absolute;
+        top: 85%;
+        margin-left: -50%;
+        padding: 0;
+        background-color: #fff;
+        margin-right: 200px;
+        
+    list-style-type: none;
+      }
+  
+      .submenu li{
+       
+        text-align: right; /* Ensure right alignment */
+        margin:  0;
+        padding: 10% 0 10% 0;
+        border-top:1px solid #ccc;
+
+      }
+ 
+      .submenu li a {
+        padding: 30px 0 0 0;
+      }
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+
+  .has-submenu{
+    position: relative;
+  }
+
+  .test{
+    align-items: right;
+  }

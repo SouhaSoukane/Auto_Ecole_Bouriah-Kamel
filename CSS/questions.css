@@ -1,0 +1,222 @@
+
+
+
+
+
+
+.pic{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 600px;
+  
+  margin: 0;
+  padding: 0;
+  margin-top: 20%;
+}
+
+
+.image{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; /*This centers vertically */
+   
+    height: 100vh;
+    overflow: hidden;
+    margin:  0;
+    margin-left: 5%;
+    margin-right: 5%;
+  padding: 0;
+ 
+}
+
+.questions{
+    display: flex;
+}
+
+section{
+    /* display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    overflow-y: auto; Enable vertical scrollbar if needed */
+
+    flex: 1; /* Take remaining width */
+    margin-left: 0; /* Match the width of the image container */
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+    height: 100vh; /* Set the height to match the viewport */
+    margin-bottom: 5%;
+
+
+
+}
+
+
+
+
+
+.main{
+   max-width: 1000px; 
+   margin-top: 1.5rem;
+   padding-bottom: 0.5rem;
+   padding-right: 4%;
+   padding-left: 4%;
+   border-bottom: 2px solid #ccc;
+   cursor: pointer;/* Specify the background color with rgba and further decreased opacity */
+   background-color: rgba(254, 213, 14, 0.4); /* Adjust the alpha value as needed */
+   
+
+   
+   
+}
+
+.question{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    text-align: right;
+}
+
+.question h3{
+    font-size: 1.2rem;
+    color: #021F3D;
+    opacity: 100%;
+}
+
+.answer{
+max-height: 0;
+overflow: hidden;
+top: 0;
+text-align: right;
+}
+
+.answer p{
+    line-height: 1.6;
+    font-size: 1rem;
+    /* display: none; */
+    color: #021F3D;
+}
+
+.main.active .answer{
+    max-height: 300px;
+}
+
+.questions h2{
+    margin-left: 45%;
+    color: #021F3D;
+}
+
+
+.liste{
+    text-align: right;
+    list-style-position: inside;
+}
+.liste li {
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.pic {
+    width: 90%;
+    height: auto;
+    max-width: 700px;
+    max-height: 600px;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 20%;
+  }
+
+  
+  .image {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .questions {
+    display: flex;
+  }
+  
+  section {
+    flex: 1;
+    margin-left: 0;
+    padding: 0;
+   
+    overflow-y: auto;
+    height: 100vh;
+  }
+  
+  .main {
+    max-width: 700px;
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2%;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    background-color: rgba(254, 213, 14, 0.4);
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  }
+  
+  .question h3 {
+    font-size: 1.2rem;
+    color: #021f3d;
+    opacity: 100%;
+  }
+  
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    top: 0;
+    text-align: right;
+  }
+  
+  .answer p {
+    line-height: 1.6;
+    font-size: 1rem;
+    display: none;
+  }
+  
+  .main.active .answer {
+    max-height: 300px;
+  }
+  
+  .questions h2 {
+    margin-left: 45%;
+    color: #021f3d;
+  }
+  
+  .liste {
+    text-align: right;
+    list-style-position: inside;
+  }
+  
+  .liste li {
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 2.5%;
+  }
+   */

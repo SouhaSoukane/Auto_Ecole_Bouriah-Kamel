@@ -1,0 +1,120 @@
+
+.footerBackground {
+    background-color: #272726;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align the map to the very right */
+    align-items: center; /* Vertically center content */
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    
+  }
+  
+  .contact {
+    color: #FCC800;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    margin-right: 270px;
+    justify-content: space-between;
+  }
+
+  .facebook{
+    margin: 0 10px 0 10px;
+  }
+
+  h3{
+    margin-left:10px;
+  }
+  
+  .place-contact {
+    display: flex;
+    align-items: center; /* Center content vertically */
+  }
+  
+  .map {
+    margin: 0 0 10px 0;
+    width: 270px;
+    height: 150px;
+    filter: grayscale(100%) invert(100%);
+  }
+  
+  .loc {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  .locat {
+    display: flex;
+    margin: 0;
+    color: #FCC800;
+    padding: 0;
+    text-align: right;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+    justify-content: space-between;
+  }
+  
+  .location {
+    padding: 0;
+    margin: 0 0 0 50px;
+  }
+  
+  h5 {
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+  }
+  
+.locat:hover{
+    
+    color: #E43C2E;
+    #co{
+        fill: #E43C2E;
+    }
+}
+
+.location:hover{
+    color: #E43C2E;
+ }
+
+ #youtube:hover{
+
+    fill: #E43C2E;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ #facebook:hover{
+
+    fill: #E43C2E;
+ }
+
+ #email:hover{
+
+    fill: #E43C2E;
+ }
+
+
+  .copyright {
+    display: flex;
+  align-items: flex-end; /* Align the text to the left-bottom */
+  margin-top: auto; /* Push it to the bottom */
+  margin-left: 0; /* Add some spacing between text and SVG */
+  margin-right: 170px;
+  color: #FCC800;
+  }
+  
+  

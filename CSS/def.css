@@ -1,0 +1,109 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.def{
+    display: flex;
+}
+
+
+.paragraph{
+    margin-top:12%;
+    text-align: right;
+    margin-right: 14%;
+    line-height: 1.6;
+    color: #021F3D;
+    font-size:larger;
+}
+
+h2{
+    text-decoration: underline #FED50E;
+    text-decoration-thickness: 0.2em;
+}
+
+.mapp{
+    width: 100%;
+    height: 320px;
+    margin-bottom: 4%;
+} 
+
+.defi{
+    text-align: right;
+}
+
+.custom-list {
+    text-align: right;
+    text-decoration: dotted;
+    /* list-style-type: disc; */
+  margin-right:2% ;
+}
+
+.inscription{
+    margin-right: 8%;
+    line-height: 1.8;
+    margin-bottom: 8%;
+    color: #021F3D; 
+    flex: 1;
+    
+}
+
+img{
+    width: 23%;
+    margin-left: 10%;
+}
+
+.driving{
+    width: 55%;
+    margin-left: 0;
+}
+.rules{
+   /* display: flex;*/
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8%;
+}
+
+.set-rules{
+    text-align: right;
+    margin-right: 0;
+    line-height: 1.7;
+    color: #021F3D;
+  /*  font-size:larger;*/
+    margin: 0;
+    padding: 0;
+    margin-right: 8%;/*
+    display: flex;
+    align-items: center;*/
+
+
+
+}
+
+
+.contenu{
+    display: flex;
+    align-items: center;
+}
+/*
+.content {
+    flex: 1;
+   /* padding-left: 10px; /* Adjust the spacing between text and image as needed */
+/*}*/
+
+.reg{
+    text-align: right;
+    list-style-position: inside;
+}
+.reg li {
+    text-align: right;
+    direction: rtl;
+}
+
+.clothes{
+    margin-right:3% ;
+}
+
+

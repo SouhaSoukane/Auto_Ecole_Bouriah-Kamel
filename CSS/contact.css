@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ctc{
+    width: 47%;
+    margin:40px;
+    padding: 0;
+    height: 45%;
+    opacity: 0.8;
+
+}
+
+.info,.call{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* justify-content: flex-start; */
+    color: #272726;
+    margin-bottom: 12%;
+}
+
+.contact{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.contact-info{
+    margin-top: 8%;
+    margin-left:3% ;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+.info:hover{
+
+    color: #FCC800;
+
+    .inf{
+        fill: #FCC800 
+    }
+}
+

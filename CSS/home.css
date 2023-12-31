@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.oval-container {
+    width: 100%;  /*Adjust width as needed*/
+    height: 500px; /* Adjust height as needed*/ 
+    /* margin-left: -100px;
+    margin-right: -500px; */
+    margin:2% 0 100px 0;
+/* padding-right: -500px; */
+    background-color: #3498db; /* Background color */
+    border-radius: 40%;   /* Make it oval by using 50% border-radius*/ 
+    text-align: center; /* Center content horizontally*/ 
+    line-height: 100px; /* Center content vertically*/ 
+    color: #ffffff; /* Text color*/ 
+    font-size: 24px; /* Font size*/ 
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+video{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+h1{
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+iframe{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
